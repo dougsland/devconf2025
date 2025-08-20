@@ -1,0 +1,2 @@
+podman build -t myprogram-check -f Containerfile .
+podman run --replace -it --name pw1 myprogram-check

@@ -1,0 +1,2 @@
+sudo dnf install -y crun-krun libkrun libkrun-sev libkrunfw-sev
+
