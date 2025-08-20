@@ -1,6 +1,6 @@
 # devconf2025
-./compile
-./run 
+./compile  
+./run  
 
 open second terminal
 
