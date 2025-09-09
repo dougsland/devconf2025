@@ -1,0 +1,1 @@
+podman run --rm -ti   --replace --name pw1   --runtime=krun   --net=host  myprogram-check-cw true

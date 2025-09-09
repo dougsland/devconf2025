@@ -1,0 +1,10 @@
+module container_kvm_gmem_write 1.0;
+
+require {
+        type kvm_gmem_t;
+        type container_kvm_t;
+        class anon_inode write;
+}
+
+#============= container_kvm_t ==============
+allow container_kvm_t kvm_gmem_t:anon_inode write;
