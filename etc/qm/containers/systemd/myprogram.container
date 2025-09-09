@@ -1,0 +1,11 @@
+[Container]
+Image=quay.io/qm-images/myprogram-check:latest
+ContainerName=myprogram
+AddDevice=/dev/kvm
+AddDevice=/dev/sev
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Restart=always
